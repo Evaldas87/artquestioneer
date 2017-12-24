@@ -1,5 +1,5 @@
 body {
-	font-family: Helvetica;
+	font-family: "Century Gothic", Arial, Helvetica;
 	text-align: center;
 }
 
@@ -33,4 +33,25 @@ p {
 
 #container {
 	margin-top: 30px;
+}
+
+button {
+	padding: 10px 40px;
+	background: #3399ff;
+	border: 0;
+	color: white;
+	border-radius: 5px;
+	font-family: "Century Gothic";
+}
+
+button:hover {
+	background: white;
+	color: #3399ff;
+	border: 1px solid #3399ff;
+
+}
+
+button:active {
+	background: #3399ff;
+	color: white;
 }

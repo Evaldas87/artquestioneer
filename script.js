@@ -72,10 +72,6 @@ function dynamicstatic() {
 
 var result = document.getElementById('container'); 
 
-// function submit() {
-// 	result.innerHTML = "My artwork should be: "
-// };
-
 function submit() {
     result.innerHTML = "My artwork should be: " + warmcold() + ", " + colorfulmonochrome() + ", " + brightdark() + ", " + organicdigital() + ", " + curvystrict() + ", " + dynamicstatic();
 };
